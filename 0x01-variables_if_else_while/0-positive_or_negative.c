@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 /**
  * main - generate random numbers to detect -ve or +ve
@@ -17,7 +19,7 @@ int main(void)
 	}
 	else if (n == 0)
 	{
-		printf("%d is zero\n", n)
+		printf("%d is zero\n", n);
 	}
 	else
 	{
